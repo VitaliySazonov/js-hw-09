@@ -1,0 +1,15 @@
+
+
+<ul>
+  {{#if isHome}}
+  <li><a class="active" href="/">Home</a></li>
+  {{else}}
+  <li><a href="/">Home</a></li>
+  {{/if}}
+
+    {{#if isAbout}}
+      <li><a class="active" href="/">About</a></li>
+    {{else}}
+      <li><a href="/about">About</a></li>
+    {{/if}}
+</ul>
